@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+
+<style>
+    
+     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sixtyfour+Convergence&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Quicksand", sans-serif;
+    }
+    .main {
+        background-image: url(assest/images/loginbg.8aa6b5b06f07df673fe0.jpg);
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .loginmain h1{
+        font-size: 30px;
+        color: #253d4e;
+    }
+    .loginmain h2{
+        font-size: 12px;
+        color: #7e7e7e;
+        margin-bottom: 6px;
+    }
+    .loginmain h2 span a{
+        color: #3bb77e;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    input {
+        background: none;
+        border: none;
+        outline: none;
+    }
+    .usernamebar, .passwordbar {
+        background-color: #fff;
+        border: 1px solid #b1afaf;
+        border-radius: 13px;
+        padding: 9px;
+        margin: 0px 0px 5px 0px;
+    }
+    .loginmain i {
+        color: grey;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+    .check i {
+        background-color: #299563;
+        border-radius: 50%;
+        color: white;
+        font-size: 10px;
+        padding: 4px;
+    }
+    button.bts {
+        background: none;
+        border: none;
+        cursor: pointer;
+        background: white;
+    }
+    .forgot a {
+        color: red;
+        text-decoration: none;
+        display: table;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: end !important;
+        width: 100%;
+    }
+    .btn a {
+        background: #1212d8;
+        border: none;
+        color: white;
+        padding: 10px 93px;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    .btn a i {
+        color: #fff;
+        padding-right: 4px;
+    }
+    .loginwithsocail h3{
+        color: red;
+        font-size: 17px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .sociallogin {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .loginwithsocail .facebook i {
+        background-color: blue;
+    }
+    .loginwithsocail .google i {
+        background-color: red;
+    }
+    .loginwithsocail .twitter i {
+        background-color: skyblue;
+    }
+    .loginwithsocail .sociallogin i {
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        margin: 5px;
+        padding: 10px 22px;
+    }
+
+</style>
+    
+</head>
+<body>
+
+
+<div class="main">
+    <div class="loginmain">
+        <h1>Login</h1>
+        <h2>Don't have an account?<span><a href="registration.html">Create Account</a></span></h2>
+        <div class="usernamebar">
+            <span class="usericon"><i class="fa-solid fa-user"></i></span> 
+            <input type="text" placeholder="enter username:">
+            <span class="check"><i class="fa-solid fa-check"></i></span><br>
+            
+        </div>
+
+        <div class="passwordbar">
+            <span><i class="fa-solid fa-lock"></i></span>   
+            <input type="password" class="form-control" placeholder="Password">
+            <button class="bts"><i class="fa-solid fa-eye"></i></button>
+        </div>
+
+        <div class="forgot">
+            <a href="#">Forgot your password?</a>
+            <a href="#">Sign up</a>
+        </div><br>
+
+        <div class="btn">
+            <a href="home.html"><span class="btnicon"> <i class="fa-solid fa-arrow-right-from-bracket"></i></span>Login</a>
+        </div>
+
+        <div class="loginwithsocail">
+            <h3>Login With</h3>
+            <div class="sociallogin">
+                <div class="facebook"><a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+                <div class="google"><a href="#"> <i class="fa-brands fa-google-plus-g"></i></a></div>
+                <div class="twitter"><a href="#">  <i class="fa-brands fa-twitter"></i></a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

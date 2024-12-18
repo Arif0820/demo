@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sixtyfour+Convergence&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+.container {
+    max-width: 1277px;
+    padding: 0;
+}
+.header {
+    background: #caf0ca;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.headermain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logosection {
+    display: flex;
+    padding-top: 20px;
+}
+.logo img {
+    max-width: 140px;
+    /* width: 100%; */
+}
+.searchbar {
+    margin-left: 35px;
+}
+.searchbar form {
+    border: 1px solid #a7e7c9;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+.searchbar form h4 {
+    font-size: 15px;
+    margin-right: 5px;
+    padding: 6px;
+}
+.searchbar .downicn {
+    margin-top: 7px;
+}
+.searchbar .text-search {
+    margin-right: 256px;
+    margin-top: 3px;
+}
+.text-search input {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    color: #253d4e;
+    margin-left: 10px;
+}
+.searchbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.srchicn i {
+    background: #11cd11;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    margin: -1px;
+    font-size: 18px;
+}
+.cartone {
+    display: flex;
+}
+.cartsectionmain {
+    cursor: pointer;
+    margin-top: 28px;
+    padding: 10px 15px;
+}
+.cartmainin {
+    display: flex;
+}
+.cartmainin a {
+    display: contents;
+}
+.cartmainin i {
+    color: #000;
+    font-size: 18px;
+}
+.cartmainin h6 {
+    color: grey;
+    font-size: 15px;
+    padding-left: 3px;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+    display: flex;
+}
+.cartsectionmain a {
+    font-size: 15px;
+    padding-left: 8px;
+}
+.cartsectionmain i {
+    color: #000;
+    padding-right: 5px;
+}
+.cartsectionmain h6 {
+    cursor: pointer;
+    font-size: 17px;
+    padding-right: 8px;
+}
+
+
+/* ----------header-1------------ */
+
+.menumain {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid #b7b6b6;
+    border-bottom: 1px solid #b7b6b6;
+    margin-top: 15px;
+    align-items: center;
+}
+.ctgry {
+    padding-top: 9px;
+}
+.ctgry a {
+    background: #3bb77e;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 30px;
+    transition: all .3s ease 0s;
+}
+.ctgry a:hover {
+    background: #0d8a50;
+}
+.ctgry a h1 {
+    font-size: 15px;
+    padding-left: 8px;
+    margin: -2px 0px 0px 0;
+}
+.menus ul {
+    margin: 0;
+    padding: 0;
+}
+.menus ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+.menumain ul a {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px;
+    transition: all .3s ease 0s;
+}
+.menumain ul a li {
+    color: #504f4f;
+    font-size: 17px;
+    padding: 12px;
+    transition: all .3s ease 0s;
+}
+.menumain ul li:hover {
+    color: #29ba29;
+}
+.active {
+    color: #18ee18!important;
+}
+.icon {
+    display: none;
+}
+#bar, #close {
+    display: none;
+}
+.linemain {
+    display: flex;
+}
+.headphonelogo img {
+    margin-top: 10px;
+}
+.headphonetext {
+    padding-left: 10px;
+}
+.headphonetext h1 {
+    color: #1de71d;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+}
+.headphonetext h2 {
+    font-size: 13px;
+    color: #00ff26;
+    text-align: center;
+    margin: 0;
+}
+
+/* ----------header-2------------ */
+
+.btns {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.btns button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 0px 3px;
+}
+.product-heading {
+    margin: 0px 26px 0px 35px;
+}
+.heading-btn {
+    display: flex;
+}
+.mens, .men{
+    display: flex;
+    justify-content: center;
+}
+.mens img, .men img {
+    width: 22%;
+    height: 279px;
+    margin: 10px 15px;
+} 
+.womens, .women{
+    display: flex;
+    justify-content: center;
+}  
+.womens img, .women img {
+    width: 22%;
+    height: 279px;
+    margin: 10px 15px;
+}
+.kids, .kid{
+    display: flex;
+    justify-content: center;
+}  
+.kids img, .kid img {
+    width: 22%;
+    height: 279px;
+    margin: 10px 15px;
+}
+#all img, #men img, #women img, #kid img {
+    border-radius: 8px;
+    border: 2px solid black;
+}
+#men, #women, #kid {
+    display: none;
+}    
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.sliderimg-1 {
+    background-image: url(https://your-daily-need.netlify.app/static/media/slider-2.01fdcc91eff86c9fabdc.png);
+    width: 100%;
+    min-height: 420px;
+    margin-top: 25px;
+    border-radius: 25px;
+    background-size: cover;
+}
+.sliderimg-2 {
+    background-image: url(https://img.freepik.com/free-photo/top-view-sliced-bell-peppers-with-greens-vegetables-dark-surface-product-meal-food-salad-health_140725-118303.jpg?w=996&t=st=1662961020~exp=1662961620~hmac=51d16d9d84430a4d5b6dcb3ca081a46826e5bdeebdab61c722531000879d3162g);
+    width: 100%;
+    min-height: 420px;
+    margin-top: 25px;
+    border-radius: 25px;
+    background-size: cover;
+}
+.sliderimg-3 {
+    background-image: url(https://img.freepik.com/free-photo/side-close-up-view-tomatoes-table-red-tomatoes-right-side-wooden-grey-table_140725-110508.jpg?w=996&t=st=1662961378~exp=1662961978~hmac=34cbe24874ef80325f4cd4d8245dc756ccc16e7079425d4b2a70d44f68934f64);
+    width: 100%;
+    min-height: 420px;
+    margin-top: 25px;
+    border-radius: 25px;
+    background-size: cover;
+}
+.slider-text {
+    padding: 90px;
+}
+.slider-text h1 {
+    color: #253d4e;
+    font-size: 60px;
+    line-height: 63px;
+    margin-bottom: 20px;
+    width: 46%;
+    font-weight: 700;
+}
+.slider-text h3 {
+    color: #3e3b3b;
+    font-size: 24px;
+    margin-bottom: 25px;
+    text-align: left;
+    font-weight: 700;
+}
+.slider-text .form {
+    background: white;
+    display: flex;
+    max-width: 480px;
+    border-radius: 15px;
+}
+.slider-text i {
+    color: #7e7e7e;
+    padding-left: 5px;
+    padding-top: 22px;
+}
+.slider-text input {
+    border: none;
+    font-size: 17px;
+    height: 62px;
+    outline: none;
+    padding-left: 10px;
+    width: 100%;
+}
+.slider-text button {
+    background: #3bb77e;
+    border: transparent;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    padding: 12px 30px;
+    transition: 0.3s;
+}
+
+/* ------------slider-------------- */
+
+.Feauteredheading {
+    display: flex;
+    margin-top: 40px;
+}
+.Feauteredheading h1 {
+    color: #253d4e;
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.Feauteredheading ul {
+    list-style: none;
+    display: flex;
+}
+.Feauteredheading ul li {
+    cursor: pointer;
+    padding: 12px;
+    transition: 0.3s;
+}
+.ctgrymain {
+    display: flex;
+    justify-content: space-between;
+}
+.ctgrymain .imgcolor1 {
+    border: 1px solid transparent;
+    background-color: #fffceb;
+    border-radius: 20px;
+    text-align: center;
+}
+.ctgrymain .imgcolor1:hover {
+    border: 1px solid #c2c2c2;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .headermain {
+        display: block;
+        text-align: center;
+    }
+    .logosection {
+        display: block;
+    }
+    .searchbar {
+        margin-left: 0;
+    }
+    .searchbar form {
+        border: none;
+        display: block;
+        border-radius: 0;
+        margin-top: 5px;
+    }
+    .searchbar .text-search {
+        margin-right: 0px;
+        margin-top: 3px;
+    }
+    .cartone {
+        display: ruby;
+        margin: 0 auto;
+    }
+
+    /* ----------header-1------------- */ 
+    .ctgry {
+        display: flex;
+        justify-content: center;
+    }
+    .menumain ul a {
+        text-decoration: none;
+    }
+    .menumain ul a li {
+        padding: 0;
+    }
+    .menus {
+        background: white;
+        position: absolute;
+        display: block;
+        top: 13px;
+        left: 0;
+        width: 100%;
+        padding: 0px 20px;
+        transform: translateX(-535px);
+        transition: 1s;
+    }
+    .show {
+        transform: translateX(0px);
+    }
+    .menus ul li {
+        display: block;
+        line-height: 8px;
+    }
+    .icon {
+        display: block;
+    }
+    #bar {
+        display: block;
+        background: black;
+        color: white;
+        padding: 4px 9px;
+    }
+    #close {
+        background: black;
+        color: white;
+        padding: 4px 9px;
+    }
+    .linemain {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* ----------header-2------------- */
+
+}
+
+
+
+
+
+
+
+
